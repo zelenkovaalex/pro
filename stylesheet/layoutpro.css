@@ -1,4 +1,10 @@
 body {
+  width: 1440px;
+  height: auto;
+  background: white;
+  position:relative;
+}
+body {
   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
     font-family: 'Anonymous Pro', sans-serif;
@@ -141,29 +147,16 @@ body {
   margin-left: 900px;
   margin-top: 11px;
 }
-.ninth {
-  margin-top: 50px;
-  margin-left: 93px;;
-  font-size: 25px;
-  font-style:  normal;
-}
-.tenth {
+.block1 {
   margin-top: 50px;
   margin-left: 93px;;
   font-size: 25px;
   font-style:  normal;
 }
 .eleventh {
-  margin-top: 50px;
-  margin-left: 93px;;
+  list-style-type: none;
+  counter-reset: num;
   font-size: 25px;
-  font-style:  normal;
-}
-.twelvth {
-  margin-top: 50px;
-  margin-left: 93px;;
-  font-size: 25px;
-  font-style:  normal;
 }
 .twelvth1 {
   margin-top: 50px;
